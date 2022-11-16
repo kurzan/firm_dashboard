@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/calendar/style.css">
+  <title>Облигации</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="head-row">
+        <img src="/img/logo.png" alt="">
+        <nav class="nav" >
+          <a class="nav__link active" href="#">Продажи</a>
+          <a class="nav__link" href="#">Активность клиентов</a>
+          <a class="nav__link" href="#">Рынки</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="container">
+      <div class="info">
+        <form class="calendar">
+          <p>Дата торгов: <span>2022-11-15</span></p>
+          <label for="trade_date_bond">Выбрать другую дату:</label>
+          <input type="date" name="trade_date_bond" id=""> <input class="calendar-button" type="submit" value="Выбрать">
+        </form>
+        <div class="result">
+          <p>Итого за день: <span class="result-total">3000</span></p>
+          <button onClick="window.location.reload()"></button>
+          <span class="last-update"></span>
+        </div>
+      </div>
+    <div class="bonds-list">
+      <div class="bonds-item">
+        <table class="bonds-table">
+          <caption>ПионЛизБП 1</caption>
+          <thead>
+            <tr>
+              <th>К/П</th>
+              <th>Кол-во</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Купля</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Продажа</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bonds-item">
+        <table>
+          <caption>ПионЛизБП 1</caption>
+          <thead>
+            <tr>
+              <th>К/П</th>
+              <th>Кол-во</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Купля</td>
+              <td>2500</td>
+            </tr>
+            <tr>
+              <td>Продажа</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bonds-item">
+        <table>
+          <caption>ПионЛизБП 1</caption>
+          <thead>
+            <tr>
+              <th>К/П</th>
+              <th>Кол-во</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Купля</td>
+              <td>110000000</td>
+            </tr>
+            <tr>
+              <td>Продажа</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bonds-item">
+        <table>
+          <caption>ПионЛизБП 1</caption>
+          <thead>
+            <tr>
+              <th>К/П</th>
+              <th>Кол-во</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Купля</td>
+              <td>110000000</td>
+            </tr>
+            <tr>
+              <td>Продажа</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>-11</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bonds-item">
+        <table>
+          <caption>ПионЛизБП 1</caption>
+          <thead>
+            <tr>
+              <th>К/П</th>
+              <th>Кол-во</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Купля</td>
+              <td>110000000</td>
+            </tr>
+            <tr>
+              <td>Продажа</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>Итого</td>
+              <td>11</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="bond-offering">
+      <table>
+        <caption>Первичное размещение</caption>
+        <thead>
+          <tr>
+            <th>Вермя</th>
+            <th>Количество</th>
+            <th>Заявка от</th>
+            <th>Статус</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>14:58:25</td>
+            <td>1000</td>
+            <td>ВТБ</td>
+            <td>Исполнена</td>
+          </tr>
+          <tr>
+            <td>14:59:25</td>
+            <td>500</td>
+            <td>Сбербанк</td>
+            <td>Исполнена</td>
+          </tr>
+          <tr>
+            <td>Итого</td>
+            <td>1500</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="bond-buyback">
+      <table>
+        <caption>Заяки на выкуп</caption>
+        <thead>
+          <tr>
+            <th>Инструмент</th>
+            <th>Количество</th>
+            <th>Заявка от</th>
+            <th>Дата активации</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Облигация БО</td>
+            <td>1000</td>
+            <td>Сбербанк</td>
+            <td>2022-11-12</td>
+          </tr>
+          <tr>
+            <td>Облигация БО</td>
+            <td>5000</td>
+            <td>Сбербанк</td>
+            <td>2022-11-12</td>
+          </tr>
+          <tr>
+            <td>Облигация БО</td>
+            <td>200</td>
+            <td>Сбербанк</td>
+            <td>2022-11-12</td>
+          </tr>
+          <tr>
+            <td>Итого</td>
+            <td>6200</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pre-widget">
+      <img src="calendar/img/calendar.png" alt="" width="32px" height="32px">
+      <p>Купонный календарь</p>
+    </div>
+    <div class="coupone-calendar-widget hidden">
+      <button class="cancel"></button>
+      <div class="bonds-buttons-list">
+        <button class="bond-button pion1 active_btn">ПионЛизБП1</button>
+        <button class="bond-button pion2">ПионЛизБП2</button>
+        <button class="bond-button pion3">ПионЛизБП3</button>
+        <button class="bond-button pion4">ПионЛизБП4</button>
+        <button class="bond-button pion5">ПионЛизБР5</button>
+      </div>
+      <h2 class="bond_title">Пионер-Лизинг БП</h2>
+      <p class="bond_text__coupons">Выплачено купонов:</p>
+      <table class="coupone-table">
+        <thead class="coupone-table__head">
+          <tr>
+            <th>Дата</th>
+            <th>Купон</th>
+            <th>Ставка</th>
+          </tr>
+        </thead>
+        <tbody class="coupone-table__body">
+        </tbody>
+      </table>
+      <button class="coupone-button show-prev-coupons"></button>
+      <button class="coupone-button show-feauters-coupons"></button>
+    </div>
+
+  </div>
+  </section>
+  <script src="/script.js"></script>
+  <script src="/calendar/script.js"></script>
+</body>
+</html>

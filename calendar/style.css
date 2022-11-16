@@ -1,0 +1,158 @@
+.pre-widget {
+  position: fixed;
+  top: 85%;
+  right: 5%;
+  width: 150px;
+  background-color: #fff;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 16px;
+}
+
+.pre-widget:hover {
+  padding: 12px 12px;
+  cursor: pointer;
+}
+
+.coupone-calendar-widget {
+  max-height: 90%;
+  overflow-y: auto;
+  position: fixed;
+  bottom: 2%;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 450px;
+  border-radius: 20px;
+  text-align: left;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cancel {
+  align-self: flex-end;
+  margin-top: 4%;
+  margin-right: 4%;
+  padding: 21px;
+  width: 42px;
+  height: 42px;
+  background-color: #323232;
+  background-image: url(./img/icon-cross.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  border-radius: 20px;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.cancel:hover,
+.cancel:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+}
+
+.cancel:active {
+  -webkit-transform: translateY(1px);
+      -ms-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+
+.bonds-buttons-list {
+  margin-top: -8%;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.bond-button {
+  border-radius: 16px;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.bond-button:hover {
+  border: 1px solid black;
+}
+
+.active_btn {
+  border: 1px solid black;
+}
+
+.bond_title {
+  margin-bottom: 0px;
+}
+
+.bond_text__coupons {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.bond_text__coupons span {
+  font-weight: 600;
+}
+
+.coupone-table {
+  margin: 0;
+  width: 100%;
+  width: 100%;
+
+}
+
+.coupone-table__head {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.coupone-table__item {
+  height: 40px;
+}
+
+.old-coupones {
+  color: grey;
+}
+
+.current-coupone {
+  background-color: aliceblue;
+}
+
+
+.current_coupon_span {
+  color: grey;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
+
+.coupone-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: #fff;
+  font-size: 24px;
+  color: #3366CC;
+}
+
+.show-prev-coupons {
+  font-size: 18px;;
+  margin-bottom: 0;
+}
+
+.coupone-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
