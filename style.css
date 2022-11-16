@@ -109,7 +109,7 @@ header {
 }
 
 .result button{
-  background: url(/img/refresh32.png);
+  background: url(img/refresh32.png);
   background-repeat: no-repeat;
   height:32px;
 	width:32px;
